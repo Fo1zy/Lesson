@@ -1,49 +1,81 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Sale Cars</title>
-</head>
-<body>
-<input type="text" name="">
-<button class="stop">Stop</button>
-<div class="line1"></div>
-<img class="photo1"src="img1.jpg">
-<a class="link1" href="">2003 Ford F350 Power <br> Stroke Super Duty 6.0 L <br> Diesel 4x4</a>
-<button class="cost1">19800$</button>
-	<ul class="dot1">
-<li>Citrus Heights</li>
-	</ul>
-	<div class="line2"></div>
-	<img class="photo2" src="img2.jpeg">
-	<a class="link2"href="#">2003 PT Cruiser</a>
-	<button class="cost2">3000$</button>
-<ul class="dot2">
-<li>Sparks</li>
-	</ul>
-	<div class="line3"></div>
-<img class="photo3" src="img3.jpeg">
-<a class="link3"href="#">2000 ford f150 work truck</a>
-	<button class="cost3">4000$</button>
-	<ul class="dot3">
-<li>brentwood / oakley</li>
-	</ul>
-	<div class="line4"></div>
-	<img class="photo4" src="img4.jpeg">
-	<a class="link4"href="#">1992 LEXUS ES300 PASS <br> SMOG</a>
-	<button class="cost4">2500$</button>
-	<ul class="dot4">
-<li>san jose downtown</li>
-	</ul>
-	<div class="line5"></div>
-	<img class="photo5" src="img5.jpeg">
-	<a class="link5"href="#">2007 Chevy Silverado</a>
-	<button class="cost5">12500$</button>
-	<ul class="dot5">
-<li>napa county</li>
-	</ul>
-		<div class="line6"></div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 0.6em;
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="EB.png" alt="Logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <img class="rounded-img" src="img.png" alt="Elvin" />
+          <h1 class="fw-light">Elvin Bedelov</h1>
+          <p class="lead text-muted">
+            I am a beginner web programmer. This is my first HTML independent
+            work, rate please
+          </p>
+          <a
+            href="https://www.instagram.com/folzycs/?hl=tr"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            Subscribe
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
